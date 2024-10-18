@@ -1,0 +1,29 @@
+nice work now i want to start making the actual frontend of the dataware housing system
+this will be an outbreak monitoring system the uses a data ware house
+right we will first focus on the front end only after once i am okay with the front end we will move on to the backend and designing the dataware house for our application 
+
+the will have 3 main pages or main components
+1.Alertdashboard component will serve as the homepage and 
+    the first section be a big display that will display if there is an outbreak or not
+    if the outbreak is there(we will define the logic to determine if the system should display an outbreak later on based on the number of cases for a particular diseaes at a certain number of hospitals using OLAP for now placeholder data can be used) 
+        then the system should display a message saying outbreak alert
+        then display the outbreak dieseae name
+        then display the total number of cases
+        then display the total number of hospitals involved
+        and then a drop down see a list of all the hospitals that are involved with their total cases
+    second section should display the 
+        portential outbreak dieseae (this will also be based of the number of cases and at how many hospitals for the that particular dieseae) also the total cases total number of hospitals involved and should also have a drop down to see the list of hospitals involved
+2.Outbreakhistory component as the name suguests will be for story all the past outbreaks dieseaes along with year the outbreak started, the total cases, the total number of hospitals involved and a drop down to list all the hospitals involved
+
+3.Hospitaldashboard will be used to add, edit and delete hospitals and its data like cases it has record for a particular diseaes, add new dieseaes, edit and delete existing diseaes
+    it should also have an option to add outbreak cases {
+        this will be done by selecting a hospital from added hospitals, then dieseae from the added dieseaes
+        patient information (like id, contact, name, age, location)
+    } this data will then be record as a new case for that hospital
+
+
+
+    
+
+
+    

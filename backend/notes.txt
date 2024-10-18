@@ -1,0 +1,3 @@
+models/ directory: This will contain files that define how you interact with the database. These files usually contain the SQL queries or ORM (Object-Relational Mapping) logic for fetching, inserting, updating, or deleting data.
+
+controllers/ directory: This will contain files that handle the application logic. The controller functions will use the models to fetch data from the database and return responses to the client.
